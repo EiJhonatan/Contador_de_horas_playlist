@@ -1,0 +1,176 @@
+/* Estilo global */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('/imgs/fundo.gif') no-repeat;
+    background-size: cover;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    position: relative;
+    flex-direction:column
+}
+
+
+
+/* Quadrado centralizado */
+.center-box {
+    background-color: #ffffffdf;
+    border-radius: 15px;
+    padding: 20px 30px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.img-felix{ 
+    animation: anim 5s infinite;
+    width: 140px;
+}
+/* Cabeçalho */
+header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #b114ff; 
+}
+
+header p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+form input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #b114ff;
+    border-radius: 10px;
+    outline: none;
+}
+
+form button {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #b114ff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background-color: #d70dd0;
+}
+
+/* Resultados */
+.result {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.result h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.result .error {
+    color: #d9534f;
+    font-weight: bold;
+}
+.container-ads {
+    margin-top: 5px;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    width: 90%;
+    border-radius: 15px;
+    justify-content: center;
+    
+  }
+  .ad-description {
+    font-size: 14px; /* Tamanho do texto da descrição */
+    color: #666; /* Cor do texto */
+    margin-bottom: 5px; /* Espaço entre o texto e o anúncio */
+    text-align: center; /* Centraliza o texto */
+    background-color: rgba(255, 255, 255, 0.863);
+    border-radius: 15px;
+    width: 25%;
+    overflow: hidden;
+  }
+ 
+  .ads {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+   
+    height: 100px;
+  }
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #fff;
+    padding: 10px;
+  }
+
+   footer a {
+    text-decoration: none;
+    color: #fff;
+  }
+  footer a:hover {
+    color: #FF0000;
+  }
+@keyframes anim {
+   
+    20% {
+      transform: rotate(-10deg);
+    }
+    40% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(-10deg);
+    }
+    80% {
+      transform: rotate(10deg);
+    }
+   
+  }
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .center-box {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    form button {
+        font-size: 0.9rem;
+    }
+    .center-box{
+        width: 90%;
+    }
+    .ads{
+       
+      }
+      .ad-description{
+        height: 16vh;
+      }
+}
