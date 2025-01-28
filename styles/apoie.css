@@ -1,0 +1,114 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Verdana','Arial', sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Verdana','Arial', sans-serif;
+    background-color: #b114ff;
+    background-size: cover;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #222;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 15px;
+  }
+  
+  /* Estilo para o QR Code */
+  .img-qr-code {
+    width: 250px;
+    height: 250px;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  /* Botão Voltar */
+  .btn-voltar {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    background-color: #b114ff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-voltar:hover {
+    background-color: #d70dd0;
+  }
+  
+  /* Botão PayPal */
+  .btn-paypal img {
+    max-width: 150px;
+  }
+  
+  /* Seções de Doação */
+  .doacao-pix, .doacao-paypal {
+    margin-bottom: 30px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #fff;
+    padding: 10px;
+  }
+
+   footer a {
+    text-decoration: none;
+    color: #fff;
+  }
+  footer a:hover {
+    color: #FF0000;
+  }
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    .img-qr-code {
+      width: 200px;
+      height: 200px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  }
+  

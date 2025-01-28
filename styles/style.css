@@ -1,19 +1,46 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* Estilo global */
 body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background: url('/imgs/fundo.gif') no-repeat;
+    font-family: 'Verdana','Arial', sans-serif;
+    background: url('/imgs/fundo.gif') no-repeat ;
     background-size: cover;
     color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
-   
     position: relative;
-    flex-direction:column
+    flex-direction:column;
+    background-color: #8809c8;
+}
+.faq-page{
+  text-decoration: none;
 }
 
-
+.Apoie{
+  text-align: center;
+  margin: 10px;
+  color: #fff;
+}
+.Apoie p{
+padding: 20px;
+}
+.btn {
+    padding: 10px;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #b114ff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
 
 /* Quadrado centralizado */
 .center-box {
@@ -25,10 +52,11 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 .img-felix{ 
     animation: anim 5s infinite;
-    width: 140px;
+    
 }
 /* Cabeçalho */
 header h1 {
@@ -134,6 +162,58 @@ form button:hover {
   footer a:hover {
     color: #FF0000;
   }
+.adblock-detected {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  border-radius: 15px;
+  background-color: #f9f9f9a9;
+  color: #333;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+.adblock-detected .adblock-icon {
+  margin-bottom: 20px;
+}
+
+.adblock-detected .adblock-icon img {
+  width: 100px;
+  height: 100px;
+}
+
+.adblock-detected h1 {
+  font-size: 2rem;
+  color: #ff4d4d;
+  margin-bottom: 10px;
+}
+
+.adblock-detected p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #555;
+}
+
+.adblock-detected button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #ff4d4d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.adblock-detected button:hover {
+  background-color: #e03e3e;
+}
+
 @keyframes anim {
    
     20% {
@@ -167,10 +247,12 @@ form button:hover {
     .center-box{
         width: 90%;
     }
-    .ads{
-       
-      }
+    
       .ad-description{
         height: 16vh;
       }
+body{
+  background-size: 100vw 100vh;
+}
+
 }
