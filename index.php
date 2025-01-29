@@ -91,6 +91,6 @@
       <p>&copy; 2025</p>
     </footer>
     <script async="async" data-cfasync="false" src="//disappearsurgery.com/3237619219b6abf3aca9ad55e61ef9c3/invoke.js"></script>
-    <script src="adblock.js"></script>
+    <script src="scripts/adblock.js"></script>
 </body>
 </html>

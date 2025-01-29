@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Doação via Pix</title>
   <link rel="stylesheet" href="styles/apoie.css">
+  <link rel="shortcut icon" href="/imgs/Fenix.ico" type="image/x-icon">
 </head>
 <body>
   <div class="container">
@@ -14,9 +15,11 @@
 
     <div class="doacao-pix">
       <h2>Doação via Pix</h2>
-      <img src="imgs/qrcode-pix.png" class="img-qr-code" alt="QR Code Pix">
+      <img src="imgs/qrcode-pix.png" class="img-qr-code" alt="QR Code Pix"onclick="copiarCodigoPix()">
       <p>Escaneie o QR Code acima com o aplicativo do seu banco.</p>
+      <button class="btn-copiar" onclick="copiarCodigoPix()">Copiar Código Pix</button>
     </div>
+    
 
     <div class="doacao-paypal">
       <h2>Doação via PayPal</h2>
@@ -27,8 +30,9 @@
     </div>
   </div>
   <footer>
-<a href="/politica.html" class="faq-page">Politica de Uso</a>
+    <a href="/politica.html" class="faq-page">Politica de Uso</a>
     <p>&copy; 2025</p>
   </footer>
+  <script src="scripts/copiar.js"></script>
 </body>
 </html>
