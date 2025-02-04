@@ -15,10 +15,12 @@ body {
     justify-content: center;
     position: relative;
     flex-direction:column;
-    background-color: #8809c8;
+    background-color: #6303b0;
 }
-.faq-page{
-  text-decoration: none;
+li{
+  text-align: left;
+  list-style-type: square;
+  margin-left: 5px;
 }
 
 .Apoie{
@@ -47,8 +49,7 @@ padding: 20px;
     background-color: #ffffffdf;
     border-radius: 15px;
     padding: 20px 30px;
-    width: 100%;
-    max-width: 400px;
+    width: 50%;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
     margin-bottom: 10px;
@@ -252,6 +253,9 @@ form button:hover {
     
       .ad-description{
         height: 16vh;
+      }
+      li{
+        margin-left: 10px;
       }
 body{
   background-size: 100vw 100vh;

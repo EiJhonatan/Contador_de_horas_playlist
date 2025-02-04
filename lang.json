@@ -16,31 +16,42 @@
       },
       "faq": {
         "title": "Perguntas Frequentes (FAQs)",
-        "back_button": "VOLTAR",
         "questions": {
           "q1": {
             "question": "O que é o Contador de Playlist Fênix?",
-            "answer": "É uma ferramenta que calcula o tempo total de duração de uma playlist do YouTube. Basta inserir o link da playlist para obter o cálculo."
+            "answer": "O Contador de Playlist Fênix é uma ferramenta gratuita que permite calcular o tempo total de duração de uma playlist do YouTube. Basta inserir o link da playlist na barra de pesquisa e clicar no botão para calcular a duração. O sistema soma automaticamente o tempo de todos os vídeos presentes na playlist e exibe o resultado em horas, minutos e segundos."
           },
           "q2": {
-            "question": "Como usar o Contador de Playlist Fênix?",
-            "answer": "Insira o link da sua playlist do YouTube na barra de entrada da página inicial e clique em \"Calcular\". O sistema exibirá o tempo total da playlist."
+            "question": "Como o sistema calcula a duração da playlist?",
+            "answer": "o Contador de Playlist Fênix faz uma solicitação à API oficial do YouTube, que retorna informações detalhadas sobre cada vídeo da playlist. O sistema extrai a duração de cada vídeo e realiza uma soma para calcular o tempo total."
           },
           "q3": {
-            "question": "Quantos vídeos uma playlist pode ter para ser calculada?",
-            "answer": "O sistema suporta playlists com até 500 vídeos, dependendo das configurações da API do YouTube. Playlists maiores podem requerer configurações adicionais."
+            "question": "Qual é o formato correto do link da playlist?",
+            "answer": "O sistema aceita apenas URLs válidas do YouTube. O formato correto do link de uma playlist é:<br> <code>https://www.youtube.com/playlist?list=SEU_CODIGO_AQUI</code>"
           },
           "q4": {
-            "question": "Por que o cálculo da playlist não funcionou?",
-            "answer": "Certifique-se de que a playlist está pública e de que o link foi inserido corretamente. Caso o problema persista, verifique se a sua chave da API está configurada corretamente."
+            "question": "Quantos vídeos uma playlist pode ter para ser calculada?",
+            "answer": "O Contador de Playlist Fênix pode processar playlists com até <strong>500 vídeos</strong> de forma padrão. Caso sua playlist tenha mais de 500 vídeos, pode ser necessário dividir a playlist em partes menores ou aguardar atualizações futuras."
           },
           "q5": {
-            "question": "O Contador de Playlist Fênix é gratuito?",
-            "answer": "Sim, o uso do contador é completamente gratuito."
+            "question": "Por que o cálculo da minha playlist não funcionou?",
+            "answer": "Se o site não conseguiu calcular a duração da playlist, pode haver alguns motivos:<ul><li>A playlist está <strong>privada</strong> ou <strong>não listada</strong> no YouTube.</li><li>O link foi inserido de forma incorreta.</li><li>O YouTube bloqueou temporariamente o acesso à API devido a muitas solicitações simultâneas.</li><li>Ocorreu um erro temporário no servidor. Tente novamente mais tarde.</li></ul>"
           },
           "q6": {
-            "question": "Como posso entrar em contato para suporte?",
-            "answer": "Você pode entrar em contato conosco pela página de contato ou enviar um e-mail para suporte@contadorplaylistfenix.com."
+            "question": "O Contador de Playlist Fênix é gratuito?",
+            "answer": "Sim! O Contador de Playlist Fênix é 100% gratuito e pode ser usado sem limitações. Para ajudar na manutenção do site, exibimos alguns anúncios."
+          },
+          "q7": {
+            "question": "Existe um limite de uso diário?",
+            "answer": "Atualmente, não há um limite fixo de uso. No entanto, como a ferramenta depende da API do YouTube, pode haver limitações caso o número de solicitações exceda os limites diários da API."
+          },
+          "q8": {
+            "question": "Posso usar o Contador de Playlist Fênix no celular?",
+            "answer": "Sim! O site é responsivo e funciona perfeitamente em celulares, tablets e computadores."
+          },
+          "q9": {
+          "question": "Como posso apoiar o projeto?",
+          "answer": "Se você gosta do Contador de Playlist Fênix e deseja apoiar, pode ajudar de algumas formas:<ul><li><strong>Doação via <a href=\"Apoie.php\">Pix</a> ou <a href=\"Apoie.php\">PayPal</a></strong>: Qualquer quantia ajuda a manter o projeto funcionando.</li><li><strong>Desativar bloqueadores de anúncio</strong>: Os anúncios ajudam a cobrir os custos de servidores.</li><li><strong>Compartilhar o site</strong>: Indique para amigos e grupos que possam achar a ferramenta útil.</li></ul>"
           }
         }
       },
@@ -104,33 +115,44 @@
           },
           "faq": {
             "title": "Frequently Asked Questions (FAQs)",
-            "back_button": "BACK",
-            "questions": {
-              "q1": {
-                "question": "What is Fênix Playlist Counter?",
-                "answer": "It is a tool that calculates the total duration of a YouTube playlist. Just paste the playlist link to get the calculation."
-              },
-              "q2": {
-                "question": "How to use Fênix Playlist Counter?",
-                "answer": "Paste the link to your YouTube playlist in the input bar on the homepage and click \"Calculate\". The system will display the total duration of the playlist."
-              },
-              "q3": {
-                "question": "How many videos can a playlist have to be calculated?",
-                "answer": "The system supports playlists with up to 500 videos, depending on the YouTube API settings. Larger playlists may require additional settings."
-              },
-              "q4": {
-                "question": "Why didn't the playlist calculation work?",
-                "answer": "Ensure the playlist is public and that the link was pasted correctly. If the problem persists, check if your API key is properly configured."
-              },
-              "q5": {
-                "question": "Is Fênix Playlist Counter free?",
-                "answer": "Yes, the use of the counter is completely free."
-              },
-              "q6": {
-                "question": "How can I contact for support?",
-                "answer": "You can contact us through the contact page or send an email to suporte@contadorplaylistfenix.com."
-              }
-            }
+           "questions": {
+          "q1": {
+            "question": "What is the Phoenix Playlist Counter?",
+            "answer": "The Phoenix Playlist Counter is a free tool that allows you to calculate the total duration of a YouTube playlist. Simply enter the playlist link in the search bar and click the button to calculate the duration. The system automatically sums the duration of all videos in the playlist and displays the result in hours, minutes, and seconds."
+          },
+          "q2": {
+            "question": "How does the system calculate the playlist duration?",
+            "answer": "The Phoenix Playlist Counter makes a request to YouTube's official API, which returns detailed information about each video in the playlist. The system extracts the duration of each video and performs a sum to calculate the total time."
+          },
+          "q3": {
+            "question": "What is the correct format for the playlist link?",
+            "answer": "The system only accepts valid YouTube URLs. The correct format for a playlist link is:<br> <code>https://www.youtube.com/playlist?list=YOUR_CODE_HERE</code>"
+          },
+          "q4": {
+            "question": "How many videos can a playlist have to be calculated?",
+            "answer": "The Phoenix Playlist Counter can process playlists with up to <strong>500 videos</strong> by default. If your playlist has more than 500 videos, you may need to split it into smaller parts or wait for future updates."
+          },
+          "q5": {
+            "question": "Why didn't my playlist calculation work?",
+            "answer": "If the site was unable to calculate the playlist duration, there might be a few reasons:<ul><li>The playlist is <strong>private</strong> or <strong>unlisted</strong> on YouTube.</li><li>The link was entered incorrectly.</li><li>YouTube temporarily blocked API access due to too many simultaneous requests.</li><li>A temporary server error occurred. Please try again later.</li></ul>"
+          },
+          "q6": {
+            "question": "Is the Phoenix Playlist Counter free?",
+            "answer": "Yes! The Phoenix Playlist Counter is 100% free and can be used without limitations. To help maintain the site, we display some ads."
+          },
+          "q7": {
+            "question": "Is there a daily usage limit?",
+            "answer": "Currently, there is no fixed usage limit. However, since the tool relies on the YouTube API, there may be restrictions if the number of requests exceeds the API's daily limits."
+          },
+          "q8": {
+            "question": "Can I use the Phoenix Playlist Counter on my phone?",
+            "answer": "Yes! The site is responsive and works perfectly on mobile phones, tablets, and computers."
+          },
+          "q9": {
+            "question": "How can I support the project?",
+            "answer": "If you like the Phoenix Playlist Counter and want to support it, you can help in several ways:<ul><li><strong>Donate via <a href=\"Apoie.php\">Pix</a> or <a href=\"Apoie.php\">PayPal</a></strong>: Any amount helps keep the project running.</li><li><strong>Disable ad blockers</strong>: Ads help cover server costs.</li><li><strong>Share the site</strong>: Recommend it to friends and groups who may find the tool useful.</li></ul>"
+          }
+        }
           },
           "politica": {
             "title": "Privacy Policy and Terms of Use",
