@@ -1,0 +1,177 @@
+{
+    "pt": {
+      "global": {
+        "donate_message": "Curtiu nosso site?",
+        "donate_info": "Doe via Pix ou PayPal",
+        "donate_help": "Se você quiser nos ajudar, qualquer valor é muito bem-vindo!",
+        "donate_button": "Apoie aqui",
+        "privacy": "Política de Privacidade e Termos de Uso",
+        "footer": "Desenvolvido por "
+      },
+      "home": {
+        "title": "Contador de Playlist Fênix",
+        "description": "Descubra a duração total da sua playlist!",
+        "placeholder": "Cole o link da playlist aqui...",
+        "button": "Calcular Duração"
+      },
+      "faq": {
+        "title": "Perguntas Frequentes (FAQs)",
+        "back_button": "VOLTAR",
+        "questions": {
+          "q1": {
+            "question": "O que é o Contador de Playlist Fênix?",
+            "answer": "É uma ferramenta que calcula o tempo total de duração de uma playlist do YouTube. Basta inserir o link da playlist para obter o cálculo."
+          },
+          "q2": {
+            "question": "Como usar o Contador de Playlist Fênix?",
+            "answer": "Insira o link da sua playlist do YouTube na barra de entrada da página inicial e clique em \"Calcular\". O sistema exibirá o tempo total da playlist."
+          },
+          "q3": {
+            "question": "Quantos vídeos uma playlist pode ter para ser calculada?",
+            "answer": "O sistema suporta playlists com até 500 vídeos, dependendo das configurações da API do YouTube. Playlists maiores podem requerer configurações adicionais."
+          },
+          "q4": {
+            "question": "Por que o cálculo da playlist não funcionou?",
+            "answer": "Certifique-se de que a playlist está pública e de que o link foi inserido corretamente. Caso o problema persista, verifique se a sua chave da API está configurada corretamente."
+          },
+          "q5": {
+            "question": "O Contador de Playlist Fênix é gratuito?",
+            "answer": "Sim, o uso do contador é completamente gratuito."
+          },
+          "q6": {
+            "question": "Como posso entrar em contato para suporte?",
+            "answer": "Você pode entrar em contato conosco pela página de contato ou enviar um e-mail para suporte@contadorplaylistfenix.com."
+          }
+        }
+      },
+      "politica": {
+        "title": "Política de Privacidade e Termos de Uso",
+        "back_button": "VOLTAR",
+        "privacy_policy": {
+          "title": "Política de Privacidade",
+          "content": [
+            "O Contador de Playlist Fênix respeita sua privacidade e se compromete a proteger seus dados pessoais. Esta política descreve como coletamos, utilizamos e protegemos suas informações ao usar nosso site.",
+            "<strong>Informações Coletadas:</strong> Coletamos informações pessoais fornecidas por você, como nome e e-mail, apenas quando necessário, e dados técnicos, como endereço IP e tipo de navegador, para melhorar sua experiência.",
+            "<strong>Uso das Informações:</strong> Suas informações serão utilizadas para oferecer nossos serviços, responder a perguntas e melhorar o site. Não compartilhamos suas informações com terceiros sem sua permissão.",
+            "<strong>Cookies:</strong>Utilizamos cookies para melhorar sua experiência de navegação. Você pode desativar os cookies nas configurações do seu navegador, mas isso pode afetar o funcionamento do site.",
+            "Para mais detalhes, entre em contato pelo e-mail: suporte@contadorplaylistfenix.com."
+          ]
+        },
+        "terms_of_use": {
+          "title": "Termos de Uso",
+          "content": [
+            "Ao utilizar o Contador de Playlist Fênix, você concorda com os seguintes termos de uso. Recomendamos que leia atentamente antes de utilizar nossos serviços.",
+            "<strong>Uso Permitido:</strong> O site é fornecido para uso pessoal e não comercial. Você não pode copiar, reproduzir ou redistribuir o conteúdo sem autorização.",
+            "<strong>Isenção de Responsabilidade:</strong> Fazemos o possível para garantir que as informações fornecidas sejam precisas, mas não garantimos sua exatidão ou integridade. Não nos responsabilizamos por eventuais erros ou problemas decorrentes do uso do site.",
+            "<strong>Alterações nos Termos:</strong> Reservamo-nos o direito de alterar estes termos a qualquer momento. Recomendamos que revise esta página periodicamente para se manter atualizado.",
+            "Caso tenha dúvidas, entre em contato pelo e-mail: suporte@contadorplaylistfenix.com."
+          ]
+        }
+      },
+      "doacao": {
+        "title": "Doação - FÊNIX",
+        "back_button": "⬅ Voltar",
+        "header": "Apoie Nosso Trabalho",
+        "description": "Gostou do nosso site? Ajude-nos a mantê-lo funcionando com uma doação via Pix ou PayPal!",
+        "pix_donation": {
+          "title": "Doação via Pix",
+          "scan_instruction": "Escaneie o QR Code acima com o aplicativo do seu banco.",
+          "copy_button_text": "Copiar Código Pix"
+        },
+        "paypal_donation": {
+          "title": "Doação via PayPal",
+          "description": "Se preferir, doe pelo PayPal clicando no botão abaixo:",
+          "paypal_button_alt": "Doar com PayPal"
+        }
+       
+      }
+
+    },
+        "en": {
+          "global": {
+            "donate_message": "Liked our site?",
+            "donate_info": "Donate via Pix or PayPal",
+            "donate_help": "If you'd like to help us, any amount is greatly appreciated!",
+            "donate_button": "Support here",
+            "privacy": "Privacy Policy and Terms of Use",
+            "footer": "Developed by "
+          },
+          "home": {
+            "title": "Fênix Playlist Counter",
+            "description": "Discover the total duration of your playlist!",
+            "placeholder": "Paste the playlist link here...",
+            "button": "Calculate Duration"
+          },
+          "faq": {
+            "title": "Frequently Asked Questions (FAQs)",
+            "back_button": "BACK",
+            "questions": {
+              "q1": {
+                "question": "What is Fênix Playlist Counter?",
+                "answer": "It is a tool that calculates the total duration of a YouTube playlist. Just paste the playlist link to get the calculation."
+              },
+              "q2": {
+                "question": "How to use Fênix Playlist Counter?",
+                "answer": "Paste the link to your YouTube playlist in the input bar on the homepage and click \"Calculate\". The system will display the total duration of the playlist."
+              },
+              "q3": {
+                "question": "How many videos can a playlist have to be calculated?",
+                "answer": "The system supports playlists with up to 500 videos, depending on the YouTube API settings. Larger playlists may require additional settings."
+              },
+              "q4": {
+                "question": "Why didn't the playlist calculation work?",
+                "answer": "Ensure the playlist is public and that the link was pasted correctly. If the problem persists, check if your API key is properly configured."
+              },
+              "q5": {
+                "question": "Is Fênix Playlist Counter free?",
+                "answer": "Yes, the use of the counter is completely free."
+              },
+              "q6": {
+                "question": "How can I contact for support?",
+                "answer": "You can contact us through the contact page or send an email to suporte@contadorplaylistfenix.com."
+              }
+            }
+          },
+          "politica": {
+            "title": "Privacy Policy and Terms of Use",
+            "back_button": "BACK",
+            "privacy_policy": {
+              "title": "Privacy Policy",
+              "content": [
+                "Fênix Playlist Counter respects your privacy and is committed to protecting your personal data. This policy describes how we collect, use, and protect your information when using our website.",
+                "<strong>Information Collected:</strong> We collect personal information provided by you, such as name and email, only when necessary, and technical data such as IP address and browser type to improve your experience.",
+                "<strong>Use of Information:</strong> Your information will be used to provide our services, answer questions, and improve the website. We do not share your information with third parties without your consent.",
+                "<strong>Cookies:</strong> We use cookies to enhance your browsing experience. You can disable cookies in your browser settings, but this may affect the functionality of the site.",
+                "For more details, please contact us at: suporte@contadorplaylistfenix.com."
+              ]
+            },
+            "terms_of_use": {
+              "title": "Terms of Use",
+              "content": [
+                "By using Fênix Playlist Counter, you agree to the following terms of use. We recommend you read them carefully before using our services.",
+                "<strong>Permitted Use:</strong> The site is provided for personal and non-commercial use. You may not copy, reproduce, or redistribute the content without authorization.",
+                "<strong>Disclaimer:</strong> We make every effort to ensure the information provided is accurate, but we do not guarantee its accuracy or completeness. We are not responsible for any errors or issues arising from the use of the site.",
+                "<strong>Changes to Terms:</strong> We reserve the right to change these terms at any time. We recommend you review this page periodically to stay updated.",
+                "If you have any questions, please contact us at: suporte@contadorplaylistfenix.com."
+              ]
+            }
+          },
+          "doacao": {
+            "title": "Donation - FÊNIX",
+            "back_button": "⬅ Back",
+            "header": "Support Our Work",
+            "description": "Liked our site? Help us keep it running with a donation via Pix or PayPal!",
+            "pix_donation": {
+              "title": "Donation via Pix",
+              "scan_instruction": "Scan the QR code above with your bank's app.",
+              "copy_button_text": "Copy Pix Code"
+            },
+            "paypal_donation": {
+              "title": "Donation via PayPal",
+              "description": "If you prefer, donate via PayPal by clicking the button below:",
+              "paypal_button_alt": "Donate with PayPal"
+            }
+          }
+        }
+      }
+  
