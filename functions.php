@@ -68,3 +68,6 @@ function addIntervals($interval1, $interval2) {
 function formatInterval($interval) {
     return $interval->h . ' horas, ' . $interval->i . ' minutos, ' . $interval->s . ' segundos';
 }
+function formatIntervalUS($interval) {
+    return $interval->h . ' hours, ' . $interval->i . ' minutes, ' . $interval->s . ' seconds';
+}

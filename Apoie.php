@@ -2,9 +2,22 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
+    
+    <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><?= $texts['doacao']['title'] ?></title>
+  <meta name="description" content="Apoie o Contador de Playlist Fênix com doações via Pix ou PayPal e ajude a manter o projeto ativo. Contribua e faça parte da nossa comunidade!">
+  
+  <meta property="og:title" content="<?= $texts['doacao']['title'] ?> | Contador de Playlist Fênix">
+  <meta property="og:description" content="Apoie o Contador de Playlist Fênix com doações via Pix ou PayPal e ajude a manter o projeto ativo.">
+  <meta property="og:image" content="https://contadorplaylistfenix.com/imgs/qrcode-pix.png">
+  <meta property="og:url" content="https://contadorplaylistfenix.com/Apoie.php">
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="<?= $texts['doacao']['title'] ?> | Contador de Playlist Fênix">
+  <meta name="twitter:description" content="Ajude a manter o Contador de Playlist Fênix com uma doação via Pix ou PayPal.">
+  <meta name="twitter:image" content="https://seusite.com/imgs/qrcode-pix.png">
+
+  <title><?= $texts['doacao']['title'] ?> | Contador de Playlist Fênix</title>
   <link rel="stylesheet" href="styles/apoie.css">
   <link rel="shortcut icon" href="/imgs/Fenix.ico" type="image/x-icon">
 </head>

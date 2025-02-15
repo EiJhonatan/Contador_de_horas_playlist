@@ -1,58 +1,58 @@
 {
-    "pt": {
-      "global": {
-        "donate_message": "Curtiu nosso site?",
-        "donate_info": "Doe via Pix ou PayPal",
-        "donate_help": "Se você quiser nos ajudar, qualquer valor é muito bem-vindo!",
-        "donate_button": "Apoie aqui",
-        "privacy": "Política de Privacidade e Termos de Uso",
-        "footer": "Desenvolvido por "
-      },
-      "home": {
-        "title": "Contador de Playlist Fênix",
-        "description": "Descubra a duração total da sua playlist!",
-        "placeholder": "Cole o link da playlist aqui...",
-        "button": "Calcular Duração"
-      },
-      "faq": {
-        "title": "Perguntas Frequentes (FAQs)",
-        "questions": {
-          "q1": {
-            "question": "O que é o Contador de Playlist Fênix?",
-            "answer": "O Contador de Playlist Fênix é uma ferramenta gratuita que permite calcular o tempo total de duração de uma playlist do YouTube. Basta inserir o link da playlist na barra de pesquisa e clicar no botão para calcular a duração. O sistema soma automaticamente o tempo de todos os vídeos presentes na playlist e exibe o resultado em horas, minutos e segundos."
-          },
-          "q2": {
-            "question": "Como o sistema calcula a duração da playlist?",
-            "answer": "o Contador de Playlist Fênix faz uma solicitação à API oficial do YouTube, que retorna informações detalhadas sobre cada vídeo da playlist. O sistema extrai a duração de cada vídeo e realiza uma soma para calcular o tempo total."
-          },
-          "q3": {
-            "question": "Qual é o formato correto do link da playlist?",
-            "answer": "O sistema aceita apenas URLs válidas do YouTube. O formato correto do link de uma playlist é:<br> <code>https://www.youtube.com/playlist?list=SEU_CODIGO_AQUI</code>"
-          },
-          "q4": {
-            "question": "Quantos vídeos uma playlist pode ter para ser calculada?",
-            "answer": "O Contador de Playlist Fênix pode processar playlists com até <strong>500 vídeos</strong> de forma padrão. Caso sua playlist tenha mais de 500 vídeos, pode ser necessário dividir a playlist em partes menores ou aguardar atualizações futuras."
-          },
-          "q5": {
-            "question": "Por que o cálculo da minha playlist não funcionou?",
-            "answer": "Se o site não conseguiu calcular a duração da playlist, pode haver alguns motivos:<ul><li>A playlist está <strong>privada</strong> ou <strong>não listada</strong> no YouTube.</li><li>O link foi inserido de forma incorreta.</li><li>O YouTube bloqueou temporariamente o acesso à API devido a muitas solicitações simultâneas.</li><li>Ocorreu um erro temporário no servidor. Tente novamente mais tarde.</li></ul>"
-          },
-          "q6": {
-            "question": "O Contador de Playlist Fênix é gratuito?",
-            "answer": "Sim! O Contador de Playlist Fênix é 100% gratuito e pode ser usado sem limitações. Para ajudar na manutenção do site, exibimos alguns anúncios."
-          },
-          "q7": {
-            "question": "Existe um limite de uso diário?",
-            "answer": "Atualmente, não há um limite fixo de uso. No entanto, como a ferramenta depende da API do YouTube, pode haver limitações caso o número de solicitações exceda os limites diários da API."
-          },
-          "q8": {
-            "question": "Posso usar o Contador de Playlist Fênix no celular?",
-            "answer": "Sim! O site é responsivo e funciona perfeitamente em celulares, tablets e computadores."
-          },
-          "q9": {
+  "pt": {
+    "global": {
+      "donate_message": "Curtiu nosso site?",
+      "donate_info": "Doe via Pix ou PayPal",
+      "donate_help": "Se você quiser nos ajudar, qualquer valor é muito bem-vindo!",
+      "donate_button": "Apoie aqui",
+      "privacy": "Política de Privacidade e Termos de Uso",
+      "footer": "Desenvolvido por "
+    },
+    "home": {
+      "title": "Contador de Playlist Fênix",
+      "description": "Descubra a duração total da sua playlist!",
+      "placeholder": "Cole o link da playlist aqui...",
+      "button": "Calcular Duração"
+    },
+    "faq": {
+      "title": "Perguntas Frequentes (FAQs)",
+      "questions": {
+        "q1": {
+          "question": "O que é o Contador de Playlist Fênix?",
+          "answer": "O Contador de Playlist Fênix é uma ferramenta gratuita que permite calcular o tempo total de duração de uma playlist do YouTube. Basta inserir o link da playlist na barra de pesquisa e clicar no botão para calcular a duração. O sistema soma automaticamente o tempo de todos os vídeos presentes na playlist e exibe o resultado em horas, minutos e segundos."
+        },
+        "q2": {
+          "question": "Como o sistema calcula a duração da playlist?",
+          "answer": "O Contador de Playlist Fênix faz uma solicitação à API oficial do YouTube, que retorna informações detalhadas sobre cada vídeo da playlist. O sistema extrai a duração de cada vídeo e realiza uma soma para calcular o tempo total."
+        },
+        "q3": {
+          "question": "Qual é o formato correto do link da playlist?",
+          "answer": "O sistema aceita apenas URLs válidas do YouTube. O formato correto do link de uma playlist é:<br> <code>https://www.youtube.com/playlist?list=SEU_CODIGO_AQUI</code>"
+        },
+        "q4": {
+          "question": "Quantos vídeos uma playlist pode ter para ser calculada?",
+          "answer": "O Contador de Playlist Fênix pode processar playlists com até <strong>500 vídeos</strong> de forma padrão. Caso sua playlist tenha mais de 500 vídeos, pode ser necessário dividir a playlist em partes menores ou aguardar atualizações futuras."
+        },
+        "q5": {
+          "question": "Por que o cálculo da minha playlist não funcionou?",
+          "answer": "Se o site não conseguiu calcular a duração da playlist, pode haver alguns motivos:<ul><li>A playlist está <strong>privada</strong> ou <strong>não listada</strong> no YouTube.</li><li>O link foi inserido de forma incorreta.</li><li>O YouTube bloqueou temporariamente o acesso à API devido a muitas solicitações simultâneas.</li><li>Ocorreu um erro temporário no servidor. Tente novamente mais tarde.</li></ul>"
+        },
+        "q6": {
+          "question": "O Contador de Playlist Fênix é gratuito?",
+          "answer": "Sim! O Contador de Playlist Fênix é 100% gratuito e pode ser usado sem limitações. Para ajudar na manutenção do site, exibimos alguns anúncios."
+        },
+        "q7": {
+          "question": "Existe um limite de uso diário?",
+          "answer": "Atualmente, não há um limite fixo de uso. No entanto, como a ferramenta depende da API do YouTube, pode haver limitações caso o número de solicitações exceda os limites diários da API."
+        },
+        "q8": {
+          "question": "Posso usar o Contador de Playlist Fênix no celular?",
+          "answer": "Sim! O site é responsivo e funciona perfeitamente em celulares, tablets e computadores."
+        },
+        "q9": {
           "question": "Como posso apoiar o projeto?",
           "answer": "Se você gosta do Contador de Playlist Fênix e deseja apoiar, pode ajudar de algumas formas:<ul><li><strong>Doação via <a href=\"Apoie.php\">Pix</a> ou <a href=\"Apoie.php\">PayPal</a></strong>: Qualquer quantia ajuda a manter o projeto funcionando.</li><li><strong>Desativar bloqueadores de anúncio</strong>: Os anúncios ajudam a cobrir os custos de servidores.</li><li><strong>Compartilhar o site</strong>: Indique para amigos e grupos que possam achar a ferramenta útil.</li></ul>"
-          }
+        }
         }
       },
       "politica": {
@@ -94,11 +94,9 @@
           "description": "Se preferir, doe pelo PayPal clicando no botão abaixo:",
           "paypal_button_alt": "Doar com PayPal"
         }
-       
-      }
-
-    },
-        "en": {
+    }
+  },
+   "en": {
           "global": {
             "donate_message": "Liked our site?",
             "donate_info": "Donate via Pix or PayPal",
@@ -193,7 +191,6 @@
               "description": "If you prefer, donate via PayPal by clicking the button below:",
               "paypal_button_alt": "Donate with PayPal"
             }
-          }
-        }
-      }
-  
+    }
+  }
+}
