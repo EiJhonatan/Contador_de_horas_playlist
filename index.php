@@ -27,8 +27,10 @@
     <meta name="google-site-verification" content="1wHQFCvkaTLmEYO7U5MNhm3HhPvr9SrcobFMBtpQ5J4" />
 
     <title><?= $texts['home']['title']?> | Contador de Playlist Fênix</title>
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/style.css?v=2">
     <link rel="shortcut icon" href="/imgs/Fenix.ico" type="image/x-icon">
+    <link rel="canonical" href="https://contadorplaylistfenix.com/" />
+
 </head>
 <body>
 <section class="Apoie">
@@ -101,10 +103,24 @@
         <?php endforeach; ?>
 
     </div>
+
+    <div class="tutorial">
+        <h2>Como usar o site?</h2>
+        <p>Veja o vídeo rápido explicando como funciona:</p>
+        <div class="video-container" onclick="loadVideo()">
+            <img 
+                src="https://img.youtube.com/vi/KcNNKXFywdQ/maxresdefault.jpg" 
+                alt="Miniatura do vídeo" 
+                class="video-thumbnail">
+            <button class="play-button">▶ Assistir</button>
+        </div>
+    </div>
+
     <footer>
     <p><?= $texts['global']['footer'] ?><a href="https://www.youtube.com/@EiJhonatan" target="_blank">Ei Jhonatan</a></p>
     <a href="/politica.php"><?= $texts['global']['privacy'] ?></a>
     <p>&copy; 2025</p>
     </footer>
+    <script src="scripts/play.js"></script>
 </body>
 </html>
