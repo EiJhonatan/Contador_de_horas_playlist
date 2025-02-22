@@ -12,6 +12,8 @@
   <meta property="og:image" content="https://contadorplaylistfenix.com/imgs/qrcode-pix.png">
   <meta property="og:url" content="https://contadorplaylistfenix.com/Apoie.php">
   
+   <meta name="google-site-verification" content="1wHQFCvkaTLmEYO7U5MNhm3HhPvr9SrcobFMBtpQ5J4" />
+  
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="<?= $texts['doacao']['title'] ?> | Contador de Playlist Fênix">
   <meta name="twitter:description" content="Ajude a manter o Contador de Playlist Fênix com uma doação via Pix ou PayPal.">

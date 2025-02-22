@@ -7,6 +7,7 @@
     <meta name="description" content="Conheça a Política de Privacidade e os Termos de Uso do Contador de Playlist Fênix. Saiba como protegemos seus dados e garantimos a melhor experiência.">
     <meta name="keywords" content="Política de Privacidade, Termos de Uso, Contador de Playlist Fênix">
     <meta name="author" content="Contador de Playlist Fênix">
+    <meta name="robots" content="index, follow">
      <title><?= $texts['politica']['title'] ?> | Contador de Playlist Fênix</title>
     <link rel="stylesheet" href="/styles/politica.css">
     <link rel="shortcut icon" href="imgs/Fenix.ico" type="image/x-icon">

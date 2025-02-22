@@ -1,3 +1,11 @@
 RewriteEngine On
 RewriteCond %{THE_REQUEST} /index\.php [NC]
 RewriteRule ^index\.php$ / [R=301,L]
+
+RewriteEngine On
+RewriteRule ^TermosDePolitica$ /politica.php [L]
+Redirect 301 /politica.php /TermosDePolitica
+RewriteEngine On
+RewriteRule ^Apoie$ Apoie.php [L]
+Redirect 301 /Apoie.php /Apoie
+Redirect 301 /faq.html /
