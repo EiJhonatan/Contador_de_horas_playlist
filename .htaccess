@@ -1,11 +1,25 @@
 RewriteEngine On
+
+# Redireciona index.php para a raiz
 RewriteCond %{THE_REQUEST} /index\.php [NC]
 RewriteRule ^index\.php$ / [R=301,L]
 
-RewriteEngine On
-RewriteRule ^TermosDePolitica$ /politica.php [L]
+# Redirecionamentos 301
 Redirect 301 /politica.php /TermosDePolitica
-RewriteEngine On
-RewriteRule ^Apoie$ Apoie.php [L]
-Redirect 301 /Apoie.php /Apoie
+Redirect 301 /politica.html /TermosDePolitica
+Redirect 301 /faq.php /
 Redirect 301 /faq.html /
+Redirect 301 /Apoie.php /Apoie
+Redirect 301 /contato.php /contato
+Redirect 301 /About.php /About
+
+# Reescrita de URLs amigáveis
+RewriteRule ^TermosDePolitica$ politica.php [NC,L]
+RewriteRule ^Apoie$ Apoie.php [NC,L]
+RewriteRule ^contato$ contato.php [NC,L]
+RewriteRule ^About$ About.php [NC,L]
+
+ErrorDocument 400 /erro/400.html
+ErrorDocument 403 /erro/403.html
+ErrorDocument 404 /erro/404.html
+ErrorDocument 500 /erro/500.html

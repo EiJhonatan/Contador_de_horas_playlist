@@ -1,0 +1,71 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a55ae2;
+    color: #6303b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.error-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+}
+
+.error-code {
+    font-size: 72px;
+    margin-bottom: 20px;
+    color: #b114ff;
+}
+
+.error-message {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.back-home {
+    text-decoration: none;
+    color: #fff;
+    background-color: #6303b0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.back-home:hover {
+    background-color: #d70dd0;
+}
+.img-felix{ 
+    animation: anim 5s infinite;
+    
+}
+@keyframes anim {
+   
+    20% {
+      transform: rotate(-10deg);
+    }
+    40% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(-10deg);
+    }
+    80% {
+      transform: rotate(10deg);
+    }
+   
+  }

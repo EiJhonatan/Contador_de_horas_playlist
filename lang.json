@@ -12,7 +12,11 @@
       "title": "Contador de Playlist Fênix",
       "description": "Descubra a duração total da sua playlist!",
       "placeholder": "Cole o link da playlist aqui...",
-      "button": "Calcular Duração"
+      "button": "Calcular Duração",
+      "menu_about": "Sobre",
+      "menu_contact": "Contato",
+      "menu_terms": "Termos de Política",
+      "menu_support": "Nos Apoie"
     },
     "faq": {
       "title": "Perguntas Frequentes (FAQs)",
@@ -53,144 +57,262 @@
           "question": "Como posso apoiar o projeto?",
           "answer": "Se você gosta do Contador de Playlist Fênix e deseja apoiar, pode ajudar de algumas formas:<ul><li><strong>Doação via <a href=\"Apoie.php\">Pix</a> ou <a href=\"Apoie.php\">PayPal</a></strong>: Qualquer quantia ajuda a manter o projeto funcionando.</li><li><strong>Desativar bloqueadores de anúncio</strong>: Os anúncios ajudam a cobrir os custos de servidores.</li><li><strong>Compartilhar o site</strong>: Indique para amigos e grupos que possam achar a ferramenta útil.</li></ul>"
         }
-        }
+      }
+    },
+    "politica": {
+      "title": "Política de Privacidade e Termos de Uso",
+      "back_button": "VOLTAR",
+      "privacy_policy": {
+        "title": "Política de Privacidade",
+        "content": [
+          "O Contador de Playlist Fênix respeita sua privacidade e se compromete a proteger seus dados pessoais. Esta política descreve como coletamos, utilizamos e protegemos suas informações ao usar nosso site.",
+          "<strong>Informações Coletadas:</strong> Coletamos informações pessoais fornecidas por você, como nome e e-mail, apenas quando necessário, e dados técnicos, como endereço IP e tipo de navegador, para melhorar sua experiência.",
+          "<strong>Uso das Informações:</strong> Suas informações serão utilizadas para oferecer nossos serviços, responder a perguntas e melhorar o site. Não compartilhamos suas informações com terceiros sem sua permissão.",
+          "<strong>Cookies:</strong>Utilizamos cookies para melhorar sua experiência de navegação. Você pode desativar os cookies nas configurações do seu navegador, mas isso pode afetar o funcionamento do site.",
+          "Para mais detalhes, entre em contato pelo e-mail: suporte@contadorplaylistfenix.com."
+        ]
       },
-      "politica": {
-        "title": "Política de Privacidade e Termos de Uso",
-        "back_button": "VOLTAR",
-        "privacy_policy": {
-          "title": "Política de Privacidade",
-          "content": [
-            "O Contador de Playlist Fênix respeita sua privacidade e se compromete a proteger seus dados pessoais. Esta política descreve como coletamos, utilizamos e protegemos suas informações ao usar nosso site.",
-            "<strong>Informações Coletadas:</strong> Coletamos informações pessoais fornecidas por você, como nome e e-mail, apenas quando necessário, e dados técnicos, como endereço IP e tipo de navegador, para melhorar sua experiência.",
-            "<strong>Uso das Informações:</strong> Suas informações serão utilizadas para oferecer nossos serviços, responder a perguntas e melhorar o site. Não compartilhamos suas informações com terceiros sem sua permissão.",
-            "<strong>Cookies:</strong>Utilizamos cookies para melhorar sua experiência de navegação. Você pode desativar os cookies nas configurações do seu navegador, mas isso pode afetar o funcionamento do site.",
-            "Para mais detalhes, entre em contato pelo e-mail: suporte@contadorplaylistfenix.com."
-          ]
-        },
-        "terms_of_use": {
-          "title": "Termos de Uso",
-          "content": [
-            "Ao utilizar o Contador de Playlist Fênix, você concorda com os seguintes termos de uso. Recomendamos que leia atentamente antes de utilizar nossos serviços.",
-            "<strong>Uso Permitido:</strong> O site é fornecido para uso pessoal e não comercial. Você não pode copiar, reproduzir ou redistribuir o conteúdo sem autorização.",
-            "<strong>Isenção de Responsabilidade:</strong> Fazemos o possível para garantir que as informações fornecidas sejam precisas, mas não garantimos sua exatidão ou integridade. Não nos responsabilizamos por eventuais erros ou problemas decorrentes do uso do site.",
-            "<strong>Alterações nos Termos:</strong> Reservamo-nos o direito de alterar estes termos a qualquer momento. Recomendamos que revise esta página periodicamente para se manter atualizado.",
-            "Caso tenha dúvidas, entre em contato pelo e-mail: suporte@contadorplaylistfenix.com."
-          ]
-        }
+      "terms_of_use": {
+        "title": "Termos de Uso",
+        "content": [
+          "Ao utilizar o Contador de Playlist Fênix, você concorda com os seguintes termos de uso. Recomendamos que leia atentamente antes de utilizar nossos serviços.",
+          "<strong>Uso Permitido:</strong> O site é fornecido para uso pessoal e não comercial. Você não pode copiar, reproduzir ou redistribuir o conteúdo sem autorização.",
+          "<strong>Isenção de Responsabilidade:</strong> Fazemos o possível para garantir que as informações fornecidas sejam precisas, mas não garantimos sua exatidão ou integridade. Não nos responsabilizamos por eventuais erros ou problemas decorrentes do uso do site.",
+          "<strong>Alterações nos Termos:</strong> Reservamo-nos o direito de alterar estes termos a qualquer momento. Recomendamos que revise esta página periodicamente para se manter atualizado.",
+          "Caso tenha dúvidas, entre em contato pelo e-mail: suporte@contadorplaylistfenix.com."
+        ]
+      }
+    },
+    "doacao": {
+      "title": "Doação - FÊNIX",
+      "back_button": "⬅ Voltar",
+      "header": "Apoie Nosso Trabalho",
+      "description": "Gostou do nosso site? Ajude-nos a mantê-lo funcionando com uma doação via Pix ou PayPal!",
+      "pix_donation": {
+        "title": "Doação via Pix",
+        "scan_instruction": "Escaneie o QR Code acima com o aplicativo do seu banco.",
+        "copy_button_text": "Copiar Código Pix"
       },
-      "doacao": {
-        "title": "Doação - FÊNIX",
-        "back_button": "⬅ Voltar",
-        "header": "Apoie Nosso Trabalho",
-        "description": "Gostou do nosso site? Ajude-nos a mantê-lo funcionando com uma doação via Pix ou PayPal!",
-        "pix_donation": {
-          "title": "Doação via Pix",
-          "scan_instruction": "Escaneie o QR Code acima com o aplicativo do seu banco.",
-          "copy_button_text": "Copiar Código Pix"
-        },
-        "paypal_donation": {
-          "title": "Doação via PayPal",
-          "description": "Se preferir, doe pelo PayPal clicando no botão abaixo:",
-          "paypal_button_alt": "Doar com PayPal"
-        }
-    }
+      "paypal_donation": {
+        "title": "Doação via PayPal",
+        "description": "Se preferir, doe pelo PayPal clicando no botão abaixo:",
+        "paypal_button_alt": "Doar com PayPal"
+      }
+    },
+    "contato": {
+      "title_Contato": "Contato",
+      "h1_Contato": "Entre em Contato",
+      "Contato_message": "O Contador Playlist Fênix é uma ferramenta para ajudar a gerenciar e contabilizar o tempo de suas playlists do YouTube de maneira eficiente.",
+      "p_message": "Para dúvidas ou suporte, entre em contato pelo e-mail:",
+      "tipo": "site",
+      "h2_title": "Sobre",
+      "h2_Sobre": "Sobre o Contador Playlist Fênix",
+      "Sobre_message": "Nosso sistema foi criado para facilitar a vida de criadores de conteúdo e espectadores que desejam monitorar a duração de suas playlists. Com uma interface simples e intuitiva, garantimos que você tenha controle total sobre seu tempo de reprodução.",
+      "info_faq": "Caso tenha dúvida sobre o site, você pode verificar em <a href=\"index.php#faq\">Perguntas Frequentes (FAQs)</a>"
+    },
+    "indice": {
+      "introducao": "Introdução",
+      "como-funciona": "Como Funciona",
+      "beneficios": "Benefícios",
+      "feedback": "Feedback dos Usuários",
+      "conclusao": "Conclusão"
+    },
+  "Introdução": {
+      "h2_introducao": "Introdução",
+      "introducao_message": "Bem-vindo ao <strong>ContadorPlaylistFenix</strong>! Se você está aqui, é porque busca uma maneira fácil e precisa de calcular a duração total de suas playlists no YouTube. Com o nosso serviço inovador, você pode rapidamente obter o total de horas e minutos de qualquer playlist que desejar. Seja você um criador de conteúdo ou apenas alguém que quer saber quanto tempo dura uma playlist, o <strong>ContadorPlaylistFenix</strong> é a ferramenta ideal para você.",
+      "introducao_message2": "Nosso site foi desenvolvido com a missão de simplificar o cálculo do tempo das playlists no YouTube. Em vez de fazer cálculos manuais ou confiar em estimativas imprecisas, oferecemos uma solução automática e eficiente. Este é apenas o começo do que temos planejado para o <strong>ContadorPlaylistFenix</strong>. Acompanhe nosso progresso e fique por dentro das melhorias que estamos constantemente implementando!"
+    },
+  "como-funciona": {
+    "h2_funciona": "Como Funciona o ContadorPlaylistFenix ?",
+    "funciona_message": "O processo de utilização do <strong>ContadorPlaylistFenix</strong> é simples e rápido:",
+    "ol_message": [
+      "<li><strong>Inserção do Link da Playlist:</strong> O primeiro passo é fornecer o link da playlist do YouTube que você deseja calcular. Nosso sistema aceita qualquer link válido, seja ele de playlists públicas ou privadas.</li>",
+      "<li><strong>Processamento e Cálculo:</strong> Assim que você insere o link, o sistema começa a buscar as informações relacionadas à playlist.</li>",
+      "<li><strong>Exibição do Resultado:</strong> Após o cálculo, o site exibe a duração total da playlist de forma clara e precisa. Você pode visualizar o tempo total em horas, minutos e segundos, além da quantidade de vídeos na playlist.</li>"
+    ]
   },
-   "en": {
-          "global": {
-            "donate_message": "Liked our site?",
-            "donate_info": "Donate via Pix or PayPal",
-            "donate_help": "If you'd like to help us, any amount is greatly appreciated!",
-            "donate_button": "Support here",
-            "privacy": "Privacy Policy and Terms of Use",
-            "footer": "Developed by "
-          },
-          "home": {
-            "title": "Fênix Playlist Counter",
-            "description": "Discover the total duration of your playlist!",
-            "placeholder": "Paste the playlist link here...",
-            "button": "Calculate Duration"
-          },
-          "faq": {
-            "title": "Frequently Asked Questions (FAQs)",
-           "questions": {
-          "q1": {
-            "question": "What is the Phoenix Playlist Counter?",
-            "answer": "The Phoenix Playlist Counter is a free tool that allows you to calculate the total duration of a YouTube playlist. Simply enter the playlist link in the search bar and click the button to calculate the duration. The system automatically sums the duration of all videos in the playlist and displays the result in hours, minutes, and seconds."
-          },
-          "q2": {
-            "question": "How does the system calculate the playlist duration?",
-            "answer": "The Phoenix Playlist Counter makes a request to YouTube's official API, which returns detailed information about each video in the playlist. The system extracts the duration of each video and performs a sum to calculate the total time."
-          },
-          "q3": {
-            "question": "What is the correct format for the playlist link?",
-            "answer": "The system only accepts valid YouTube URLs. The correct format for a playlist link is:<br> <code>https://www.youtube.com/playlist?list=YOUR_CODE_HERE</code>"
-          },
-          "q4": {
-            "question": "How many videos can a playlist have to be calculated?",
-            "answer": "The Phoenix Playlist Counter can process playlists with up to <strong>500 videos</strong> by default. If your playlist has more than 500 videos, you may need to split it into smaller parts or wait for future updates."
-          },
-          "q5": {
-            "question": "Why didn't my playlist calculation work?",
-            "answer": "If the site was unable to calculate the playlist duration, there might be a few reasons:<ul><li>The playlist is <strong>private</strong> or <strong>unlisted</strong> on YouTube.</li><li>The link was entered incorrectly.</li><li>YouTube temporarily blocked API access due to too many simultaneous requests.</li><li>A temporary server error occurred. Please try again later.</li></ul>"
-          },
-          "q6": {
-            "question": "Is the Phoenix Playlist Counter free?",
-            "answer": "Yes! The Phoenix Playlist Counter is 100% free and can be used without limitations. To help maintain the site, we display some ads."
-          },
-          "q7": {
-            "question": "Is there a daily usage limit?",
-            "answer": "Currently, there is no fixed usage limit. However, since the tool relies on the YouTube API, there may be restrictions if the number of requests exceeds the API's daily limits."
-          },
-          "q8": {
-            "question": "Can I use the Phoenix Playlist Counter on my phone?",
-            "answer": "Yes! The site is responsive and works perfectly on mobile phones, tablets, and computers."
-          },
-          "q9": {
-            "question": "How can I support the project?",
-            "answer": "If you like the Phoenix Playlist Counter and want to support it, you can help in several ways:<ul><li><strong>Donate via <a href=\"Apoie.php\">Pix</a> or <a href=\"Apoie.php\">PayPal</a></strong>: Any amount helps keep the project running.</li><li><strong>Disable ad blockers</strong>: Ads help cover server costs.</li><li><strong>Share the site</strong>: Recommend it to friends and groups who may find the tool useful.</li></ul>"
-          }
+  "beneficios": {
+    "h2_funciona": "Benefícios do ContadorPlaylistFenix ?",
+    "ol_message": [
+      "<li><strong>Precisão nos Cálculos:</strong> Diferente de outras ferramentas que podem oferecer estimativas, o <strong>ContadorPlaylistFenix</strong> realiza cálculos exatos e apresenta resultados de forma precisa.</li>",
+      "<li><strong>Velocidade:</strong> O processo de cálculo é extremamente rápido. Ao inserir o link da playlist, em questão de segundos você terá a duração total pronta.</li>",
+      "<li><strong>Interface Amigável:</strong> Nossa plataforma foi projetada para ser fácil de usar, sem a necessidade de configurações complexas ou etapas complicadas.</li>",
+      "<li><strong>Sem Necessidade de Cadastro:</strong> O <strong>ContadorPlaylistFenix</strong> não exige que você crie uma conta ou faça login para usar as funcionalidades básicas. Basta inserir o link e pronto!</li>",
+      "<li><strong>Exibição Detalhada dos Vídeos:</strong> Caso precise saber o tempo exato de cada vídeo dentro da playlist, nosso site fornece essas informações com precisão.</li>",
+      "<li><strong>Acessibilidade:</strong> O <strong>ContadorPlaylistFenix</strong> está disponível para ser usado em qualquer dispositivo com acesso à internet, seja um computador, tablet ou smartphone.</li>"
+    ]
+  },
+  "feedback": {
+    "h2_funciona": "Feedback dos Usuários",
+    "ol_message": [
+      "<p>Estamos sempre em busca de feedback para melhorar o <strong>ContadorPlaylistFenix</strong>. Se você já usou nosso site, adoramos ouvir suas opiniões sobre como podemos torná-lo ainda melhor. Nosso objetivo é criar uma ferramenta que atenda às necessidades de todos os tipos de usuários, desde amantes de música até criadores de conteúdo.</p>",
+      "<p>Se você tiver sugestões, dúvidas ou algum comentário sobre o serviço, não hesite em entrar em contato conosco. Estamos prontos para ouvir você e fazer melhorias contínuas em nosso site.</p>"
+    ]
+  },
+ "conclusao": {
+  "h2_funciona": "Conclusão",
+  "ol_message": [
+    "<p>O <strong>ContadorPlaylistFenix</strong> é a ferramenta definitiva para quem deseja calcular de maneira rápida e precisa a duração de suas playlists do YouTube, com uma interface simples.</p>",
+    "<p>Agradecemos por visitar nossa página e esperamos que você aproveite ao máximo o <strong>ContadorPlaylistFenix</strong>. Se tiver dúvidas ou sugestões, <a href='contato.php'>entre</a> em contato conosco e ajudaremos você com tudo o que precisar.</p>"
+  ]
+}
+},
+
+  "en": {
+    "global": {
+      "donate_message": "Liked our site?",
+      "donate_info": "Donate via Pix or PayPal",
+      "donate_help": "If you'd like to help us, any amount is greatly appreciated!",
+      "donate_button": "Support here",
+      "privacy": "Privacy Policy and Terms of Use",
+      "footer": "Developed by "
+    },
+    "home": {
+      "title": "Fenix Playlist Counter",
+      "description": "Discover the total duration of your playlist!",
+      "placeholder": "Paste the playlist link here...",
+      "button": "Calculate Duration",
+      "menu_about": "About",
+      "menu_contact": "Contact",
+      "menu_terms": "Policy Terms",
+      "menu_support": "Support Us"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions (FAQs)",
+      "questions": {
+        "q1": {
+          "question": "What is the Phoenix Playlist Counter?",
+          "answer": "The Phoenix Playlist Counter is a free tool that allows you to calculate the total duration of a YouTube playlist. Simply enter the playlist link in the search bar and click the button to calculate the duration. The system automatically sums the duration of all videos in the playlist and displays the result in hours, minutes, and seconds."
+        },
+        "q2": {
+          "question": "How does the system calculate the playlist duration?",
+          "answer": "The Phoenix Playlist Counter makes a request to the official YouTube API, which returns detailed information about each video in the playlist. The system extracts the duration of each video and performs a sum to calculate the total time."
+        },
+        "q3": {
+          "question": "What is the correct format for the playlist link?",
+          "answer": "The system accepts only valid YouTube URLs. The correct format for a playlist link is:<br> <code>https://www.youtube.com/playlist?list=YOUR_CODE_HERE</code>"
+        },
+        "q4": {
+          "question": "How many videos can a playlist have to be calculated?",
+          "answer": "The Phoenix Playlist Counter can process playlists with up to <strong>500 videos</strong> by default. If your playlist has more than 500 videos, you may need to split it into smaller parts or wait for future updates."
+        },
+        "q5": {
+          "question": "Why didn't the calculation work for my playlist?",
+          "answer": "If the site was unable to calculate your playlist duration, there could be a few reasons:<ul><li>The playlist is <strong>private</strong> or <strong>unlisted</strong> on YouTube.</li><li>The link was entered incorrectly.</li><li>YouTube temporarily blocked access to the API due to too many simultaneous requests.</li><li>A temporary server error occurred. Try again later.</li></ul>"
+        },
+        "q6": {
+          "question": "Is the Phoenix Playlist Counter free?",
+          "answer": "Yes! The Phoenix Playlist Counter is completely free and can be used without any limitations. We display ads to help maintain the website."
+        },
+        "q7": {
+          "question": "Is there a daily usage limit?",
+          "answer": "Currently, there is no fixed daily usage limit. However, since the tool depends on the YouTube API, there may be limitations if the number of requests exceeds the daily API limit."
+        },
+        "q8": {
+          "question": "Can I use the Phoenix Playlist Counter on mobile?",
+          "answer": "Yes! The site is responsive and works perfectly on mobile phones, tablets, and computers."
+        },
+        "q9": {
+          "question": "How can I support the project?",
+          "answer": "If you enjoy the Phoenix Playlist Counter and want to support us, you can help in several ways:<ul><li><strong>Donate via <a href=\"Apoie.php\">Pix</a> or <a href=\"Apoie.php\">PayPal</a></strong>: Any amount helps to keep the project running.</li><li><strong>Disable ad blockers</strong>: Ads help cover server costs.</li><li><strong>Share the site</strong>: Recommend it to friends and groups who might find the tool useful.</li></ul>"
         }
-          },
-          "politica": {
-            "title": "Privacy Policy and Terms of Use",
-            "back_button": "BACK",
-            "privacy_policy": {
-              "title": "Privacy Policy",
-              "content": [
-                "Fênix Playlist Counter respects your privacy and is committed to protecting your personal data. This policy describes how we collect, use, and protect your information when using our website.",
-                "<strong>Information Collected:</strong> We collect personal information provided by you, such as name and email, only when necessary, and technical data such as IP address and browser type to improve your experience.",
-                "<strong>Use of Information:</strong> Your information will be used to provide our services, answer questions, and improve the website. We do not share your information with third parties without your consent.",
-                "<strong>Cookies:</strong> We use cookies to enhance your browsing experience. You can disable cookies in your browser settings, but this may affect the functionality of the site.",
-                "For more details, please contact us at: suporte@contadorplaylistfenix.com."
-              ]
-            },
-            "terms_of_use": {
-              "title": "Terms of Use",
-              "content": [
-                "By using Fênix Playlist Counter, you agree to the following terms of use. We recommend you read them carefully before using our services.",
-                "<strong>Permitted Use:</strong> The site is provided for personal and non-commercial use. You may not copy, reproduce, or redistribute the content without authorization.",
-                "<strong>Disclaimer:</strong> We make every effort to ensure the information provided is accurate, but we do not guarantee its accuracy or completeness. We are not responsible for any errors or issues arising from the use of the site.",
-                "<strong>Changes to Terms:</strong> We reserve the right to change these terms at any time. We recommend you review this page periodically to stay updated.",
-                "If you have any questions, please contact us at: suporte@contadorplaylistfenix.com."
-              ]
-            }
-          },
-          "doacao": {
-            "title": "Donation - FÊNIX",
-            "back_button": "⬅ Back",
-            "header": "Support Our Work",
-            "description": "Liked our site? Help us keep it running with a donation via Pix or PayPal!",
-            "pix_donation": {
-              "title": "Donation via Pix",
-              "scan_instruction": "Scan the QR code above with your bank's app.",
-              "copy_button_text": "Copy Pix Code"
-            },
-            "paypal_donation": {
-              "title": "Donation via PayPal",
-              "description": "If you prefer, donate via PayPal by clicking the button below:",
-              "paypal_button_alt": "Donate with PayPal"
-            }
+      }
+    },
+    "politica": {
+      "title": "Privacy Policy and Terms of Use",
+      "back_button": "BACK",
+      "privacy_policy": {
+        "title": "Privacy Policy",
+        "content": [
+          "The Fenix Playlist Counter respects your privacy and is committed to protecting your personal data. This policy describes how we collect, use, and protect your information when using our website.",
+          "<strong>Information Collected:</strong> We collect personal information you provide, such as name and email, only when necessary, and technical data, such as IP address and browser type, to improve your experience.",
+          "<strong>Use of Information:</strong> Your information will be used to provide our services, respond to inquiries, and improve the site. We do not share your information with third parties without your consent.",
+          "<strong>Cookies:</strong> We use cookies to enhance your browsing experience. You can disable cookies in your browser settings, but this may affect the functionality of the site.",
+          "For more details, contact us at: support@fenixplaylistcounter.com."
+        ]
+      },
+      "terms_of_use": {
+        "title": "Terms of Use",
+        "content": [
+          "By using the Fenix Playlist Counter, you agree to the following terms of use. We recommend you read them carefully before using our services.",
+          "<strong>Permitted Use:</strong> The site is provided for personal and non-commercial use. You may not copy, reproduce, or redistribute content without authorization.",
+          "<strong>Disclaimer:</strong> We strive to ensure that the information provided is accurate, but we do not guarantee its accuracy or completeness. We are not responsible for any errors or issues arising from the use of the site.",
+          "<strong>Changes to Terms:</strong> We reserve the right to change these terms at any time. We recommend reviewing this page periodically to stay updated.",
+          "If you have any questions, contact us at: support@fenixplaylistcounter.com."
+        ]
+      }
+    },
+    "doacao": {
+      "title": "Donation - FENIX",
+      "back_button": "⬅ Back",
+      "header": "Support Our Work",
+      "description": "Liked our site? Help us keep it running with a donation via Pix or PayPal!",
+      "pix_donation": {
+        "title": "Donation via Pix",
+        "scan_instruction": "Scan the QR code above with your bank’s app.",
+        "copy_button_text": "Copy Pix Code"
+      },
+      "paypal_donation": {
+        "title": "Donation via PayPal",
+        "description": "If you prefer, donate via PayPal by clicking the button below:",
+        "paypal_button_alt": "Donate with PayPal"
+      }
+    },
+    "contato": {
+      "h1_Contato": "Contact Us",
+      "Contato_message": "The Fenix Playlist Counter is a tool to help manage and track the time of your YouTube playlists efficiently.",
+      "p_message": "For questions or support, contact us at:",
+      "tipo": "site",
+      "h2_title": "About",
+      "h2_Sobre": "About the Fenix Playlist Counter",
+      "Sobre_message": "Our system was created to make life easier for content creators and viewers who want to monitor the duration of their playlists. With a simple and intuitive interface, we ensure you have full control over your playtime.",
+      "info_faq": "If you have any questions about the site, you can check the <a href=\"index.php#faq\">Frequently Asked Questions (FAQs)</a>"
+    },
+    "indice": {
+      "introducao": "Introduction",
+      "como-funciona": "How It Works",
+      "beneficios": "Benefits",
+      "feedback": "User Feedback",
+      "conclusao": "Conclusion"
+    },
+    "Introdução": {
+      "h2_introducao": "Introduction",
+      "introducao_message": "Welcome to the <strong>FenixPlaylistCounter</strong>! If you're here, it's because you're looking for an easy and accurate way to calculate the total duration of your YouTube playlists. With our innovative service, you can quickly get the total hours and minutes of any playlist you want. Whether you're a content creator or just someone wanting to know how long a playlist is, the <strong>FenixPlaylistCounter</strong> is the perfect tool for you.",
+      "introducao_message2": "Our website was developed with the mission of simplifying the calculation of YouTube playlist durations. Instead of making manual calculations or relying on inaccurate estimates, we offer an automatic and efficient solution. This is just the beginning of what we have planned for the <strong>FenixPlaylistCounter</strong>. Follow our progress and stay updated on the improvements we are constantly implementing!"
+    },
+    "como-funciona": {
+      "h2_funciona": "How Does the FenixPlaylistCounter Work?",
+      "funciona_message": "Using the <strong>FenixPlaylistCounter</strong> is simple and fast:",
+      "ol_message": [
+        "<li><strong>Enter the Playlist Link:</strong> The first step is to provide the YouTube playlist link you want to calculate. Our system accepts any valid link, whether it's from public or private playlists.</li>",
+        "<li><strong>Processing and Calculation:</strong> Once you enter the link, the system starts fetching information related to the playlist.</li>",
+        "<li><strong>Displaying the Result:</strong> After the calculation, the site displays the total duration of the playlist in a clear and precise way. You can view the total time in hours, minutes, and seconds, as well as the number of videos in the playlist.</li>"
+      ]
+    },
+    "beneficios": {
+      "h2_funciona": "Benefits of the FenixPlaylistCounter?",
+      "ol_message": [
+        "<li><strong>Accurate Calculations:</strong> Unlike other tools that might provide estimates, the <strong>FenixPlaylistCounter</strong> performs exact calculations and displays the results accurately.</li>",
+        "<li><strong>Speed:</strong> The calculation process is extremely fast. Once you enter the playlist link, the total duration will be ready in seconds.</li>",
+        "<li><strong>User-Friendly Interface:</strong> Our platform is designed to be easy to use, with no complex settings or complicated steps.</li>",
+        "<li><strong>No Account Needed:</strong> The <strong>FenixPlaylistCounter</strong> does not require you to create an account or log in to use the basic features. Just paste the link and go!</li>",
+        "<li><strong>Detailed Video Display:</strong> If you need to know the exact duration of each video within the playlist, our site provides this information accurately.</li>",
+        "<li><strong>Accessibility:</strong> The <strong>FenixPlaylistCounter</strong> is available for use on any device with internet access, whether it's a computer, tablet, or smartphone.</li>"
+      ]
+    },
+    "feedback": {
+      "h2_funciona": "User Feedback",
+      "ol_message": [
+        "<p>We are always looking for feedback to improve the <strong>FenixPlaylistCounter</strong>. If you have used our site, we would love to hear your opinions on how we can make it even better. Our goal is to create a tool that meets the needs of all types of users, from music lovers to content creators.</p>",
+        "<p>If you have suggestions, questions, or comments about the service, please don't hesitate to contact us. We are ready to listen to you and make continuous improvements to our site.</p>"
+      ]
+    },
+    "conclusao": {
+      "h2_funciona": "Conclusion",
+      "ol_message": [
+        "<p>The <strong>FenixPlaylistCounter</strong> is the ultimate tool for anyone who wants to quickly and accurately calculate the duration of their YouTube playlists, with a simple interface.</p>",
+        "<p>Thank you for visiting our page, and we hope you get the most out of the <strong>FenixPlaylistCounter</strong>. If you have any questions or suggestions, <a href='contato.php'>contact us</a> and we'll help you with everything you need.</p>"
+      ]
     }
   }
 }

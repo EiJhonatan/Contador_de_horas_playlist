@@ -175,7 +175,56 @@ form button:hover {
 .play-button:hover {
     background: rgba(0, 0, 0, 0.9);
 }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6203b0ac;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: #b114ff solid 1px;
+    border-radius: 15px;
+}
 
+.navbar .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.navbar .menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.navbar .menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    color: #fff;
+    margin: 5px 0;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 15px;
+    color: #000;
+    list-style-type: none;
+}
+
+.nav-list li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-list li a:hover {
+    Color: #b114ff;
+}
 @keyframes anim {
    
     20% {
@@ -214,6 +263,34 @@ form button:hover {
     }
     body {
         background-size: 100vw 100vh;
+    }
+    @media screen and (max-width: 768px) {
+        .nav-list {
+            display: none;
+           
+            flex-direction: column;
+            width: 100%;
+            height: 210px;
+            background-color: #6203b0ac;
+            padding: 10px;
+        }
+    
+        .nav-list.active {
+            display: flex;
+        }
+    
+        .nav-list li {
+            margin: 10px 0;
+            text-align: center;
+        }
+    
+        .navbar .menu-toggle {
+            display: block;
+            
+        }
+        .navbar{
+            flex-direction: column;
+        }
     }
 }
 

@@ -1,7 +1,7 @@
 <?php include 'lang.php'; ?>
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head lang="<?= $lang?>">
+<html lang="<?= $lang?>">
+<head>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1376008327261567"
     crossorigin="anonymous"></script>
 
@@ -33,6 +33,23 @@
 
 </head>
 <body>
+
+<header>
+    <nav class="navbar">
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar">☰</span>
+           
+        </div>
+        <ul class="nav-list">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="About.php"><?= $texts['home']['menu_about'] ?></a></li>
+            <li><a href="contato.php"><?= $texts['home']['menu_contact'] ?></a></li>
+            <li><a href="Apoie.php"><?= $texts['home']['menu_support'] ?></a></li>
+            <li><a href="politica.php"><?= $texts['home']['menu_terms'] ?></a></li>
+        </ul>
+    </nav>
+</header>
+
 <section class="Apoie">
     <h2><?= $texts['global']['donate_message'] ?></h2>
     <h3><?= $texts['global']['donate_info'] ?></h3>
@@ -92,7 +109,7 @@
         </main>
     </div>
 
-    <div class="center-box">
+    <div class="center-box" id="faq">
         <h1><?= $texts['faq']['title'] ?></h1>
 
         <?php foreach ($texts['faq']['questions'] as $key => $faq) : ?>
@@ -104,7 +121,7 @@
 
     </div>
 
-    <div class="tutorial">
+    <div class="tutorial" id="tutorial">
         <h2>Como usar o site?</h2>
         <p>Veja o vídeo rápido explicando como funciona:</p>
         <div class="video-container" onclick="loadVideo()">
@@ -117,10 +134,12 @@
     </div>
 
     <footer>
+    <a href="/error/400.html">aaa</a>
     <p><?= $texts['global']['footer'] ?><a href="https://www.youtube.com/@EiJhonatan" target="_blank">Ei Jhonatan</a></p>
     <a href="/politica.php"><?= $texts['global']['privacy'] ?></a>
     <p>&copy; 2025</p>
     </footer>
     <script src="scripts/play.js"></script>
+    <script src="scripts/menu.js"></script>
 </body>
 </html>
