@@ -134,7 +134,6 @@
     </div>
 
     <footer>
-    <a href="/error/400.html">aaa</a>
     <p><?= $texts['global']['footer'] ?><a href="https://www.youtube.com/@EiJhonatan" target="_blank">Ei Jhonatan</a></p>
     <a href="/politica.php"><?= $texts['global']['privacy'] ?></a>
     <p>&copy; 2025</p>
